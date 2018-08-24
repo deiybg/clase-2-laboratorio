@@ -3,7 +3,6 @@
 
 int main()
 {
-
     int numero;
     int i;
     int numeroMaximo;
@@ -15,7 +14,6 @@ int main()
     {
         printf("Ingrese un numero: ");
         scanf("%d",&numero);
-
          if(i==0)
          {
             numeroMaximo=numero;
@@ -30,9 +28,7 @@ int main()
             numeroMinimo=numero;
          }
         acumulador+=(float)numero;
-
     }
-
         promedio= acumulador/i;
         printf("El numero maximo es: %d\n",numeroMaximo);
         printf("El numero minimo es: %d\n",numeroMinimo);
